@@ -1,4 +1,4 @@
-#include "Ejercicio1.h"
+#include  "../Ejercicio_1/Ejercicio1.h"
 
 #include <stdio.h>
 #include <stdlib.h>
