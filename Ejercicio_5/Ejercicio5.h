@@ -1,10 +1,11 @@
-//
-// Created by Pablo Alcolea Sesse on 21/11/24.
-//
-
 #ifndef EJERCICIO5_H
 #define EJERCICIO5_H
 
-void Ejercicio5();
+#include "../Ejercicio_1/Ejercicio1.h"
 
-#endif //EJERCICIO5_H
+// Funciones para imprimir y modificar estructuras
+void imprimirEstudiante(Estudiante est);
+void modificarEstudiante(Estudiante *est);
+void imprimirEstudiante2(Estudiante *est);
+
+#endif // FUNCIONES_ESTUDIANTE_H

@@ -1,10 +1,11 @@
-//
-// Created by pinchiguillo on 20/11/2024.
-//
+
 
 #ifndef EJERCICIO3_H
 #define EJERCICIO3_H
 
-struct Estudiante copiarEstudiante(struct Estudiante est);
+#include "../Ejercicio_1/Ejercicio1.h"
 
-#endif //EJERCICIO3_H
+// Función para copiar una estructura Estudiante
+Estudiante copiarEstudiante(Estudiante est);
+
+#endif // COPIA_ESTUDIANTE_H

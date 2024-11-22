@@ -5,6 +5,9 @@
 #ifndef EJERCICIO4_H
 #define EJERCICIO4_H
 
-void Ejercicio4();
+#include "../Ejercicio_1/Ejercicio1.h"
 
-#endif //EJERCICIO4_H
+// Creación de alias de tipos de estructuras
+typedef Estudiante Est;
+
+#endif // ALIAS_ESTUDIANTE_H
